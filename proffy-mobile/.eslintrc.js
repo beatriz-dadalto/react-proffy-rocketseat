@@ -53,5 +53,13 @@ module.exports = {
       '.json': 'never',
     }],
     // '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'react/prop-types': [
+      1,
+      {
+        ignore: [],
+        customValidators: [],
+        skipUndeclared: false,
+      },
+    ],
   },
 };
